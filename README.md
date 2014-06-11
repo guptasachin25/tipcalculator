@@ -3,18 +3,17 @@ This is Android application to calculate tip and total amount. This is done as p
 Time spent: 5-8 Hours in total
 
 Completed User Stores:
-Required: User is displayed the tip of specified percentage for specified entered amount
+1. Required: User is displayed the tip of specified percentage for specified entered amount.
 
-Required: User enters the total amount of the transaction
+2. Required: User enters the total amount of the transaction.
 
-Required: User can select between tip amounts (i.e 10%, 15%, 20%)
+3. Required: User can select between tip amounts (i.e 10%, 15%, 20%).
 
-Required: Upon selecting tip amount, formatted tip value is displayed
+4. Required: Upon selecting tip amount, formatted tip value is displayed.
 
-Optional: User changes the total amount and updated tip is reflected automatically
+5. Optional: User changes the total amount and updated tip is reflected automatically.
 
-Optional: User can select how many ways to split the tip
+6. Optional: User can select how many ways to split the tip.
 
-
-![Gif](Tip%20Calculator.gif)
+![App Gif](Tip%20Calculator.gif)
 
