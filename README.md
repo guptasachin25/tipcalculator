@@ -15,3 +15,6 @@ Optional: User changes the total amount and updated tip is reflected automatical
 
 Optional: User can select how many ways to split the tip
 
+
+![ScreenShot](https://github.com/guptasachin25/tipcalculator/blob/master/Tip%20Calculator.gif)
+
