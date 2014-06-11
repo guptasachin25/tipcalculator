@@ -1,0 +1,147 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"    
+    tools:context="${packageName}.${activityClass}" >
+    
+    <Button
+        android:id="@+id/btn20Percent"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btn15Percent"
+        android:layout_alignBottom="@+id/btn15Percent"
+        android:layout_centerHorizontal="true"
+        android:onClick="onSubmit20"
+        android:text="@string/percent20" />
+
+    <EditText
+        android:id="@+id/etBillingAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="@string/BillingAmountText" />
+
+    <Button
+        android:id="@+id/btn15Percent"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/etBillingAmount"
+        android:layout_below="@+id/etBillingAmount"
+        android:layout_marginTop="15dp"
+        android:onClick="onSubmit15"
+        android:text="@string/percent15" />
+
+    <TextView
+        android:id="@+id/tvProgressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sbSplitCounter"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="2dp"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <Button
+        android:id="@+id/btn25Percent"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tvSplitText"
+        android:layout_alignRight="@+id/etBillingAmount"
+        android:onClick="onSubmit25"
+        android:text="@string/percent25" />
+
+    <SeekBar
+        android:id="@+id/sbSplitCounter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvSplitText"
+        android:layout_centerHorizontal="true"
+        android:max="@integer/maxSplit" />
+
+    <TextView
+        android:id="@+id/tvSplitText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btn20Percent"
+        android:layout_below="@+id/btn20Percent"
+        android:layout_marginTop="31dp"
+        android:text="Split"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/tvTipAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btn25Percent"
+        android:layout_below="@+id/tvBillingAmount"
+        android:layout_marginTop="10dp"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/tvTotalPayableAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btn25Percent"
+        android:layout_below="@+id/tvTipAmount"
+        android:layout_marginTop="10dp"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    
+    <TextView
+        android:id="@+id/tvSplitAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btn25Percent"
+        android:layout_below="@+id/tvTotalPayableAmount"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:id="@+id/tvBillingAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btn25Percent"
+        android:layout_below="@+id/tvProgressBar"
+        android:layout_marginTop="24dp"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/tvBillingAmountText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btn15Percent"
+        android:layout_below="@+id/tvProgressBar"
+        android:layout_marginTop="24dp"
+        android:text="@string/tvBillingAmountText" />
+
+    <TextView
+        android:id="@+id/tvTipAmountText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btn15Percent"
+        android:layout_below="@+id/tvBillingAmountText"
+        android:layout_marginTop="10dp"
+        android:text="@string/tvTipAmountText" />
+
+    <TextView
+        android:id="@+id/tvTotalAmountText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btn15Percent"
+        android:layout_below="@+id/tvTipAmountText"
+        android:layout_marginTop="10dp"
+        android:text="@string/tvPayableAmountText" />
+
+    <TextView
+        android:id="@+id/tvSplitAmountText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btn15Percent"
+        android:layout_below="@+id/tvTotalAmountText"
+        android:layout_marginTop="10dp"
+        android:text="@string/tvSplitAmountText" />
+
+</RelativeLayout>

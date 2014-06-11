@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TipCalculator</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="BillingAmountText">Enter Bill Amount</string>
+    <string name="percent15">15%</string>
+    <string name="percent20">20%</string>
+    <string name="percent25">25%</string>
+    <string name="billingAmountText">Total Bill Amount in USD</string>
+    <string name="tipAmountTextView">Total tip amount</string>
+    <string name="totalAmountTextView">Total Amount</string>
+    <string name="tvBillingAmountKey">BillingAmountKey</string>
+    <string name="tvSplitAmountText">Split Amount</string>
+    <string name="tvBillingAmountText">Billing Amount</string>
+    <string name="tvTipAmountText">Tip Amount</string>
+    <string name="tvPayableAmountText">Total Payable Amount</string>
+    <string name="Blue">blue</string>
+
+</resources>
